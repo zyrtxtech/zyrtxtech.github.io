@@ -162,7 +162,7 @@
   .navbar {
     padding: 0; }
   .navbar-brand img {
-    width: 100px; } }
+    width: 50px; } }
 
 @media (min-width: 320px) and (max-width: 480px) {
   .bg-inverse {
@@ -170,7 +170,7 @@
   .navbar {
     padding: 0; }
   .navbar-brand img {
-    width: 100px; }
+    width: 50px; }
   .navbar-expand-md .navbar-brand, .navbar-expand-md .navbar-toggler {
     margin: 6px 15px; }
   .btn-singin {
