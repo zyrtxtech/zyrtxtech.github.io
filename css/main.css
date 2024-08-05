@@ -1049,7 +1049,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   transition: all .8s ease; }
   #pricing .pricing-table h3 {
     font-size: 20px;
-    color: #151948;
+    color: #333333;
     font-weight: 500;
     text-transform: uppercase;
     margin-bottom: 11px; }
@@ -1069,7 +1069,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   #pricing .pricing-table ul li {
     font-size: 16px;
     font-weight: 400;
-    color: #5e629c;
+    color: #333333;
     display: block;
     line-height: 33px; }
   #pricing .pricing-table:hover {
@@ -1137,7 +1137,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
       margin-bottom: 0; }
     #team .single-team .team-details p {
       font-size: 12px;
-      color: #5e629c; }
+      color: #333333; }
 
 /* ==========================================================================
    Blog section
@@ -1177,7 +1177,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
       line-height: 28px;
       margin-bottom: 12px; }
     #blog .blog-item-wrapper h3 a {
-      color: #151948; }
+      color: #333333; }
     #blog .blog-item-wrapper p {
       font-size: 15px;
       line-height: 23px;
@@ -1197,13 +1197,13 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
       border-top: 1px solid #ddd;
       padding: 18px 30px 35px 30px; }
     #blog .blog-item-wrapper span.name a {
-      color: #5e629c;
+      color: #333333;
       font-size: 14px; }
     #blog .blog-item-wrapper span.name i {
       color: #008080;
       margin-right: 5px; }
     #blog .blog-item-wrapper span.date a {
-      color: #5e629c;
+      color: #333333;
       font-size: 14px; }
     #blog .blog-item-wrapper span.date i {
       color: #008080;
@@ -1236,7 +1236,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
       line-height: 28px;
       margin-bottom: 12px; }
     #blog2 .blog-item-wrapper h3 a {
-      color: #151948; }
+      color: #333333; }
     #blog2 .blog-item-wrapper p {
       font-size: 15px;
       line-height: 23px;
@@ -1256,13 +1256,13 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
       border-top: 1px solid #ddd;
       padding: 18px 30px 35px 30px; }
     #blog2 .blog-item-wrapper span.name a {
-      color: #5e629c;
+      color: #333333;
       font-size: 14px; }
     #blog2 .blog-item-wrapper span.name i {
       color: #ff704f;
       margin-right: 5px; }
     #blog2 .blog-item-wrapper span.date a {
-      color: #5e629c;
+      color: #333333;
       font-size: 14px; }
     #blog2 .blog-item-wrapper span.date i {
       color: #ff704f;
@@ -1343,7 +1343,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 
 #blog-single .blog-comment .meta {
   margin-bottom: 10px;
-  color: #999; }
+  color: #333333; }
 
 .blog-hero-area .post-meta {
   color: #fff;
@@ -1426,12 +1426,12 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   min-height: 52px;
   padding: 0px 0 0 28px;
   font-size: 16px;
-  color: #5e629c; }
+  color: #333333; }
 
 #contact form#contactForm textarea {
   padding: 15px 0 0 28px;
   font-size: 16px;
-  color: #5e629c; }
+  color: #333333; }
 
 #contact form#contactForm .form-control:focus {
   border: 1px solid #008080;
@@ -1444,20 +1444,24 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
    ========================================================================== */
 #footer-Content {
   padding-top: 130px;
-  background: #180e29; }
+  background: #333333; }
   #footer-Content .footer-logo img {
     padding-top: 70px; }
   #footer-Content .form-control:focus {
     outline: none;
     box-shadow: none;
     background: #e5fff3; }
+  #footer-Content .lni-chevron-right {
+      cursor: pointer;}
   #footer-Content .copyright {
     margin-top: 125px;
-    border-top: 1px solid #3c1f6e;
+    border-top: 1px solid #fff;
     padding-top: 30px;
-    padding-bottom: 30px; }
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 30px;}
     #footer-Content .copyright p {
-      color: #008080;
+      color: #fff;
       font-size: 18px; }
     #footer-Content .copyright a {
       color: #ddd; }
@@ -1470,7 +1474,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
     height: 40px;
     margin-top: 18px; }
     #footer-Content .widget .subscribe-area input[type=email] {
-      background: #24153c;
+      background: #333333;
       border: 1px solid #fff;
       color: #e2e2e2;
       font-size: 14px;
