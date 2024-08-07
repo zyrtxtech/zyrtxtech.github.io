@@ -1542,6 +1542,77 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   .required {
     color: red; }
 
+/* Companies we have worked with */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+#showcase2 {
+  padding: 20px 0;
+}
+
+.gradient-bg2 {
+  background: linear-gradient(to right, #ffffff, #f0f0f0);
+  padding-top: 60px;
+}
+
+.gradient-bg3 {
+  background: linear-gradient(to right, #ffffff, #f0f0f0);
+  padding-top: 20px;
+  padding-bottom: 60px;
+}
+
+.showcase-text2 {
+  margin-bottom: 30px;
+}
+
+.showcase-text2 h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.showcase-area2 {
+  position: relative;
+  overflow: hidden; /* Ensure that overflowing content is hidden */
+  width: 100%; /* Set width to full container */
+}
+
+.showcase-slider2 {
+  display: flex; /* Use flexbox to arrange children in a row */
+  animation: scroll 30s linear infinite; /* Animate infinitely */
+}
+
+.carousel-inner2 {
+  display: flex;
+}
+
+.carousel-item2 {
+  min-width: 100px;
+  margin: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-item2 img {
+  max-height: 100px;
+  max-width: 100px;
+}
+
+@keyframes scroll {
+  0% {
+      transform: translateX(0%);
+  }
+  100% {
+      transform: translateX(-100%);
+  }
+}
+
+
 
 /* ==========================================================================
    Footer section
