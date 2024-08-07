@@ -1175,6 +1175,10 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
       text-align: center; /* Center align the buttons */
     }
 
+    .table-spacing {
+
+    }
+
 /* ==========================================================================
    team section
    ========================================================================== */

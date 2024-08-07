@@ -56,6 +56,9 @@
     padding: 80px 0px 60px 0px; }
   #pricing {
     padding-bottom: 80px; }
+  #pricing .pricing-table {
+    height: 900px;
+    padding: 30px 15px; }
   #testimonial #client-testimonial .content-inner p {
     font-size: 18px;
     color: #5e629c;
@@ -107,6 +110,7 @@
     display: block;
     line-height: 25px; }
   #pricing .pricing-table {
+    height: 900px;
     padding: 30px 15px; }
   #pricing .pricing-table h1 span {
     left: 10%; }
@@ -162,7 +166,10 @@
   .navbar {
     padding: 0; }
   .navbar-brand img {
-    width: 50px; } }
+    width: 50px; }
+  .table-spacing {
+    margin-bottom: 60px; }
+  }
 
 @media (min-width: 320px) and (max-width: 480px) {
   .bg-inverse {
