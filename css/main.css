@@ -92,7 +92,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 
 .section-header .section-title {
   font-size: 35px;
-  margin-bottom: 12px;
+  margin-bottom: 20px;
   font-weight: 600;
   position: relative;
   line-height: 30px; }
@@ -100,7 +100,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 .section-header .desc-text p {
   font-size: 18px;
   color: #333333;
-  line-height: 26px;
+  line-height: 30px;
   margin-bottom: 0; }
 
 /* ==========================================================================
@@ -158,12 +158,21 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
     width: 160px;
     height: 50px;
     padding: 14px 15px;
-  }
-  
-  .btn-border:hover {
+    text-align: center;
+    text-decoration: none;
+    line-height: 22px;
+}
+
+.btn-border:hover {
     box-shadow: 0px 8px 9px 0px rgba(96, 94, 94, 0.17);
     transform: translateY(-2px);
-  }
+}
+
+.plan-button {
+    display: flex;
+    gap: 20px; /* Space between buttons */
+    justify-content: center; /* Center the buttons horizontally */
+}
   
   .btn-border-filled {
     cursor: pointer;
@@ -1046,17 +1055,27 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
    Our Pricing 
    ========================================================================== */
 #pricing .pricing-table {
-  padding: 55px;
+  padding: 30px;
   border: 1px solid #ccc;
+  border-radius: 6px;
+  height: 800px;
   -moz-transition: all .8s ease;
   -webkit-transition: all .8s ease;
   transition: all .8s ease; }
   #pricing .pricing-table h3 {
-    font-size: 20px;
-    color: #333333;
+    font-size: 25px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    color: #008080;
     font-weight: 500;
-    text-transform: uppercase;
-    margin-bottom: 11px; }
+    text-align: center;
+    text-transform: uppercase; }
+
+  #pricing .pricing-table h2 {
+      font-size: 40px;
+      margin-bottom: 15px;
+      color: #008080; }
+
   #pricing .pricing-table h1 {
     color: #008080;
     font-size: 50px;
@@ -1069,19 +1088,66 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
     left: 20%;
     top: 10px; }
   #pricing .pricing-table ul {
-    padding-bottom: 28px; }
+    padding-bottom: 15px;
+    padding-left: -10px; /* Adjust as needed */
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style: none;
+   }
   #pricing .pricing-table ul li {
     font-size: 16px;
     font-weight: 400;
     color: #333333;
     display: block;
-    line-height: 33px; }
+    line-height: 25px;
+    position: relative;
+    margin-bottom: 1px; /* Adjust to reduce space between list items */
+    padding-left: 20px;
+   }
+
+   #pricing .pricing-table ul li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 7px; /* Thickness of the line */
+    background-color: #008080; /* Color of the line */
+    margin-top: 20px;
+    height: 7px;
+    border-radius: 100%;
+   }
+
+  #pricing .pricing-table p {
+      font-size: 15px;
+      font-weight: 400;
+      margin-bottom: 20px;
+      text-align: center;
+      line-height: 20px;
+  } 
+
   #pricing .pricing-table:hover {
     border: 1px solid #008080;
     box-shadow: 0px 0px 25px 0px rgba(95, 95, 95, 0.24);
     -moz-transition: all .4s ease;
     -webkit-transition: all .4s ease;
     transition: all .4s ease; }
+
+    .best-value {
+      position: absolute;
+      top: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: #FFD700;
+      border-color: #fff7ca;
+      color: #fff;
+      font-size: 14px;
+      font-weight: bold;
+      padding: 5px 10px;
+      border-radius: 5px;
+      z-index: 1;
+      border: 1px solid #fffdf1;
+    }
 
 /* ==========================================================================
    team section
