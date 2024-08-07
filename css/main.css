@@ -164,8 +164,9 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
 }
 
 .btn-border:hover {
-    box-shadow: 0px 8px 9px 0px rgba(96, 94, 94, 0.17);
-    transform: translateY(-2px);
+  color: #008080;
+  box-shadow: 0px 8px 9px 0px rgba(96, 94, 94, 0.17);
+  transform: translateY(-2px);
 }
 
 .plan-button {
@@ -220,6 +221,23 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   }
   
   .btn-singin:hover {
+    color: #fff;
+    background-color: transparent;
+    border-color: #fff;
+    transform: translateY(-2px);
+  }
+
+  .btn-nav {
+    cursor: pointer;
+    background-color: #f8bc3c;
+    border: 1px solid #f8bc3c;
+    color: #fff;
+    padding: 10px 23px;
+    margin-left: 30px;
+    box-shadow: 0px 8px 9px 0px rgba(96, 94, 94, 0.17);
+  }
+  
+  .btn-nav:hover {
     color: #fff;
     background-color: transparent;
     border-color: #fff;
@@ -1138,15 +1156,23 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
       top: -10px;
       left: 50%;
       transform: translateX(-50%);
-      background-color: #FFD700;
-      border-color: #fff7ca;
+      background-color: #f8bc3c;
       color: #fff;
       font-size: 14px;
       font-weight: bold;
       padding: 5px 10px;
       border-radius: 5px;
       z-index: 1;
-      border: 1px solid #fffdf1;
+      border: 1px solid #fff5bd;
+    }
+
+    .plan-button {
+      position: absolute;
+      bottom: 25px; /* Adjust this value as needed to ensure it falls between 700-800px */
+      left: 50%;
+      transform: translateX(-50%);
+      width: 80%; /* Make sure buttons are centered */
+      text-align: center; /* Center align the buttons */
     }
 
 /* ==========================================================================
