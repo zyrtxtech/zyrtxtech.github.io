@@ -1190,12 +1190,16 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   transition: all .8s ease; }
   #team .single-team img {
     width: 100%; }
+  .single-team {
+    margin-bottom: 30px;
+  }
   #team .single-team .team-social-icons {
     position: absolute;
     left: 0;
     right: 0;
     text-align: center;
-    top: -20px; }
+    top: -20px;
+   }
     #team .single-team .team-social-icons ul.social-list li {
       display: inline-block;
       width: 35px;
