@@ -258,8 +258,8 @@
     font-size: 15px; }
   #testimonial #client-testimonial h5 span {
     font-size: 13px;
-    color: #5e629c;
-    font-style: italic; }
+    color: #008080;
+    font-style: bold; }
   #testimonial .testimonial-area {
     position: inherit;
     width: 100%;
@@ -442,6 +442,5 @@
     left: 10%; }
   #testimonial #client-testimonial .content-inner p {
     font-size: 20px;
-    color: #5e629c;
-    font-style: italic;
+    color: #333333;
     line-height: 33px; } }

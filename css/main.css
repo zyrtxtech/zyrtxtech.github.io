@@ -948,12 +948,13 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
       padding-top: 26px;
       padding-bottom: 20px; }
     #testimonial #client-testimonial .author-info h5 {
-      color: #333333;
+      color: #008080;
       font-size: 18px; }
     #testimonial #client-testimonial h5 span {
       font-size: 16px;
       color: #333333;
-      font-style: italic; }
+      font-weight: 300;
+      font-style: bold; }
     #testimonial #client-testimonial .owl-controls .owl-buttons div.owl-prev {
       color: #008080;
       display: inline-block;
@@ -1077,6 +1078,7 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   border: 1px solid #ccc;
   border-radius: 6px;
   height: 800px;
+  width: 100%;
   -moz-transition: all .8s ease;
   -webkit-transition: all .8s ease;
   transition: all .8s ease; }
