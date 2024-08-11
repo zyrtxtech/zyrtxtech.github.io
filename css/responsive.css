@@ -4,7 +4,6 @@
   #showcase .showcase-area {
     width: 98%; }
   #showcase .showcase-slider .screenshot-thumb p {
-    color: #fff;
     font-size: 20px;
     font-style: italic;
     margin-bottom: 10px; }
@@ -61,7 +60,6 @@
     padding: 30px 15px; }
   #testimonial #client-testimonial .content-inner p {
     font-size: 18px;
-    color: #5e629c;
     font-style: italic;
     line-height: 35px; }
   #team .single-team .team-social-icons {
@@ -79,7 +77,6 @@
   #footer-Content .copyright {
     margin-top: 80px; }
   .hero-area .contents h2 {
-    color: #fff;
     font-size: 40px;
     font-weight: 600;
     line-height: 60px;
@@ -97,7 +94,6 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
   .hero-area .contents h2 {
-    color: #fff;
     font-size: 40px !important; }
   .navbar-expand-md .navbar-nav .nav-link {
     padding: 12px 0px;
@@ -123,22 +119,17 @@
   #footer-Content .footer-logo img {
     padding-top: 0; }
   #footer-Content .copyright p {
-    color: #008080;
     font-size: 14px; }
   .hero-area .intro-img {
     padding: 100px 0 0px; }
   .blog-hero-area .contents h2 {
     font-size: 36px; }
   .btn-singin {
-    background: #008080;
-    color: #fff;
     padding: 10px 14px;
     margin-left: 12px;
     box-shadow: 0px 8px 9px 0px rgba(96, 94, 94, 0.17);
     font-size: 11px; }
   .btn-light-singin {
-    background: #008080;
-    color: #fff;
     padding: 10px 14px;
     margin-left: 12px;
     box-shadow: 0px 8px 9px 0px rgba(96, 94, 94, 0.17);
@@ -157,12 +148,8 @@
     width: 98%; } }
 
 @media only screen and (max-width: 767px) {
-  .bg-inverse {
-    background: #008080; }
   .navbar-expand-md .navbar-brand, .navbar-expand-md .navbar-toggler {
     margin: 6px 15px; }
-  .bg-inverse {
-    background: #008080; }
   .navbar {
     padding: 0; }
   .navbar-brand img {
@@ -172,8 +159,6 @@
   }
 
 @media (min-width: 320px) and (max-width: 480px) {
-  .bg-inverse {
-    background: #008080; }
   .navbar {
     padding: 0; }
   .navbar-brand img {
@@ -181,8 +166,6 @@
   .navbar-expand-md .navbar-brand, .navbar-expand-md .navbar-toggler {
     margin: 6px 15px; }
   .btn-singin {
-    background: transparent;
-    color: #fff;
     padding: 10px 23px;
     margin-left: 0;
     box-shadow: 0px 0px 0px 0px rgba(96, 94, 94, 0.17); }
@@ -193,7 +176,6 @@
   .hero-area .contents {
     padding: 200px 0 50px; }
   .hero-area .contents p {
-    color: #fff;
     font-size: 14px;
     line-height: 26px; }
   .hero-area .contents .btn {
@@ -205,8 +187,7 @@
     padding: 15px 14px;
     font-size: 12px; }
   .hero-area .contents .btn-border {
-    border: 1px solid #fff;
-    color: #fff;
+    border: 1px solid;
     -webkit-box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
     box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
     width: 122px;
@@ -230,7 +211,6 @@
     margin-bottom: 20px; }
   .section-header .desc-text p {
     font-size: 14px;
-    color: #5e629c;
     line-height: 24px;
     margin-bottom: 0; }
   #features .feature-item {
@@ -254,11 +234,9 @@
     font-size: 15px;
     line-height: 22px; }
   #testimonial #client-testimonial .author-info h5 {
-    color: #151948;
     font-size: 15px; }
   #testimonial #client-testimonial h5 span {
     font-size: 13px;
-    color: #008080;
     font-style: bold; }
   #testimonial .testimonial-area {
     position: inherit;
@@ -283,15 +261,12 @@
   #blog .blog-item-wrapper {
     margin-bottom: 15px; }
   #footer-Content .copyright p {
-    color: #008080;
     font-size: 12px; }
   #footer-Content ul.menu li a {
-    color: #e2e2e2;
     font-size: 14px;
     font-weight: 400;
     line-height: 30px; }
   #footer-Content h3.block-title {
-    color: #fff;
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 15px;
@@ -299,13 +274,12 @@
   #footer-Content .footer-logo img {
     padding-top: 0; }
   #footer-Content {
-    padding-top: 30px;
-    background: #180e29; }
+    padding-top: 30px; }
   #footer-Content .footer-logo img {
     padding-top: 0;
     width: 40%; }
   #blog .blog-item-wrapper .author {
-    border-top: 1px solid #ddd;
+    border-top: 1px solid;
     padding: 18px 10px 15px 10px; }
   .owl-theme .owl-controls {
     display: none !important; }
@@ -339,7 +313,6 @@
   #footer-Content .copyright {
     margin-top: 30px; }
   .blog-hero-area .contents h2 {
-    color: #fff;
     font-size: 25px; }
   .blog-hero-area .contents {
     padding: 100px 0 90px; }
@@ -423,11 +396,9 @@
   #footer-Content .copyright {
     margin-top: 100px; }
   .hero-area .contents p {
-    color: #fff;
     font-size: 16px;
     line-height: 26px; }
   .hero-area2 .contents p {
-    color: #fff;
     font-size: 16px;
     line-height: 26px; }
   #business-plane .business-item-info h3 {
@@ -442,5 +413,4 @@
     left: 10%; }
   #testimonial #client-testimonial .content-inner p {
     font-size: 20px;
-    color: #333333;
     line-height: 33px; } }
