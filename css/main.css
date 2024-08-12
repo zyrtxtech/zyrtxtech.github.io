@@ -445,6 +445,10 @@ a:not([href]):not([tabindex]):focus, a:not([href]):not([tabindex]):hover {
   font-size: 20px;
   color: #fff; }
 
+nav {
+  background-color: #008080;
+}
+
 .menu-bg {
   background: #008080;
   background: linear-gradient(95deg, #008080, #009d9d) !important;
@@ -1705,6 +1709,7 @@ body {
 
 .section-padding {
   padding-top: 100px;
+  margin-top: 60px;
 }
 
 #privacy-policy .privacy-policy-content {
@@ -1755,5 +1760,10 @@ body {
 
 #privacy-policy ul li a:hover {
   text-decoration: underline;
+}
+
+.container-fluid {
+  margin-top: 80px;
+  margin-bottom: 50px;
 }
 
